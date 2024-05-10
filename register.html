@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset='UTF-8'/>
+        <title> Your Gym </title>
+        <link rel="stylesheet" type="text/css" href="register.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html" class="logo">Your Gym</a>
+            <div class="header-right">
+              <a href="register.html">Register</a>
+              <a href="gyms.html">Gyms</a>
+              <a href="#about">About</a>
+            </div>
+        </div>
+        <div class="main">
+            <form action="action_page.php">
+                <div class="container">
+                  <h1 class="center">Register</h1>
+                  <p class="center">Please fill in this form to create an account.</p>
+                  <hr>
+              
+                  <label for="email">
+                    <b>Email</b> </label>
+                  <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              
+                  <label for="psw">
+                    <b>Password</b> </label>
+                  <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              
+                  <label for="psw-repeat">
+                    <b>Repeat Password</b> </label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+                  <hr>
+              
+                  <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+                  <button type="submit" class="registerbtn">Register</button>
+                </div>
+              
+                <div class="container signin">
+                  <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+              </form>
+        </div>
+        <footer> 
+            <h3>Copyright is not here</h3>
+        </footer>
+    </body>
+</html>
